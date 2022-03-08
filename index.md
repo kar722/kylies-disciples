@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Hi I am karthik
 
 You can use the [editor on GitHub](https://github.com/kar722/kylies-disciples/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
