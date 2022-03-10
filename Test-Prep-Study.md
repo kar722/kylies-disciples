@@ -1,7 +1,7 @@
 ---
-title: How To
+title: Test Prep Study
 layout: template
-filename: howto
+filename: Test-Prep-Study
 --- 
 
 # How to Create a Multi-page Website using Github Pages

@@ -1,7 +1,7 @@
 ---
-title: Our Story
+title: Data Structures Projects
 layout: template
-filename: story
+filename: Data-Structures-Projects
 --- 
 
 # Our Story
