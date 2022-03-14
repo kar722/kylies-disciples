@@ -11,7 +11,7 @@
 |Gavin Wu|[@GavinYWu](https://github.com/GavinYWu)|[Gavin](https://github.com/GavinYWu/Gavin/tree/gh-pages)|Github Admin||
 |Daniel Bertino|||||
 |Hamza Hakak|||||
-|Kevin Chen|||||
+|Kevin Chen|||| Primary Designer|
 
 # Time Box
 ## Week 0
