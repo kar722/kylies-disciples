@@ -9,8 +9,8 @@
 | - | - | - | - | - |
 |Karthik Valluri|[@kar722](https://github.com/kar722)|[Karthik](https://github.com/kar722/CSPTri3/tree/gh-pages)|Scrum Master||
 |Gavin Wu|[@GavinYWu](https://github.com/GavinYWu)|[Gavin](https://github.com/GavinYWu/Gavin/tree/gh-pages)|Github Admin||
-|Daniel Bertino|||||
-|Hamza Hakak|||||
+|Daniel Bertino||||Deployment Manager|
+|Hamza Hakak||||Technical Lead|
 |Kevin Chen|[@Kevinc023032](https://github.com/Kevinc023032)|[Kevin](https://github.com/Kevinc023032/Tri-3-Thingy)|Primary Designer||
 
 # Time Box
