@@ -3,7 +3,7 @@
 ## Project Contributers
 
 | [Scrum Board](https://github.com/kar722/kylies-disciples/projects/1) | [Insight Graph](https://github.com/kar722/kylies-disciples/graphs/contributors) | Runtime Link |
-| - | - | - |
+| ------------ | ------------ | ------------ |
 
 |Name|Github Profile|Individual Repository|Role|Commits|
 | - | - | - | - | - |
