@@ -1,4 +1,7 @@
 # Project
+
+{% include nav.html %}
+
 ## Sponsor: Holiday Decoration Club - Avinh Huynh
 ### Contact Information: 
 Phone Number: (619)-888-7408 <br> Email: avinhahuynh@gmail.com
