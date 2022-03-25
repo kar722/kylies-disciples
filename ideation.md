@@ -14,6 +14,9 @@ We are hosting our website through Amazon Web Services (AWS) that will be manage
 
 ## Wireframe
 ### Home Page
+
+[Index.html](https://kar722.github.io/kylies-disciples/webdesign)
+
 <p float="left">
   <img src="wireframe.png" height="600px;">
   <img src="wireframeA.png" height="600px;"> 
