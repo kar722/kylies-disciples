@@ -1,7 +1,4 @@
 # Project
-
-{% include nav.html %}
-
 ## Sponsor: Holiday Decoration Club - Avinh Huynh
 ### Contact Information: 
 Phone Number: (619)-888-7408 <br> Email: avinhahuynh@gmail.com
@@ -13,8 +10,18 @@ Phone Number: (619)-888-7408 <br> Email: avinhahuynh@gmail.com
 * Sassy would be nice but not necessary
 * Navbar
 
+We are hosting our website through Amazon Web Services (AWS) that will be managed by our Deployment Manager, Daniel Bertino.
+
 ## Wireframe
-<img src="wireframe.png">
+### Home Page
+<p float="left">
+  <img src="wireframe.png" height="600px;">
+  <img src="wireframeA.png" height="600px;"> 
+  <img src="wireframeB.png" height="600px;">
+  <img src="wireframefunctions.png" height="600px;">
+</p>
+
+### Database
 
 ## Liscense
 We are choosing the Open Source MIT license, we will allow using the code from the Kylies-disciples GitHub to be used freely only to make and distribute closed source versions.
