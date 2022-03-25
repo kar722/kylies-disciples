@@ -25,11 +25,17 @@ We are hosting our website through Amazon Web Services (AWS) that will be manage
   <img src="wireframeA.png" height="600px;"> 
   <img src="wireframeB.png" height="600px;">
   <img src="wireframefunctions.png" height="600px;">
-  <img src="suggestiondatabase.png" height="600px;">
-  <img src="newsletter.png" height="600px;">
 </p>
 
 ### Database
+<p float="left">
+   <img src="suggestiondatabase.png" height="600px;">
+</p>
+
+### Newsletter
+<p float="left">
+   <img src="newsletter.png" height="600px;">
+</p>
 
 ## Liscense
 We are choosing the Open Source MIT license, we will allow using the code from the Kylies-disciples GitHub to be used freely only to make and distribute closed source versions.
