@@ -22,6 +22,8 @@ We are hosting our website through Amazon Web Services (AWS) that will be manage
   <img src="wireframeA.png" height="600px;"> 
   <img src="wireframeB.png" height="600px;">
   <img src="wireframefunctions.png" height="600px;">
+  <img src="suggestiondatabase.png" height="600px;">
+  <img src="newsletter.png" height="600px;">
 </p>
 
 ### Database
