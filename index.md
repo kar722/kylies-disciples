@@ -1,5 +1,7 @@
 # Kylies-disciples
 
+{% include nav.html %}
+
 ## Table of Contents
 
 
