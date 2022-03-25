@@ -1,4 +1,7 @@
 # Team Roles
+
+{% include nav.html %}
+
 ## Project Contributers
 <table>
   <tr>
