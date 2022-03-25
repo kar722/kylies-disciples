@@ -1,0 +1,579 @@
+
+<!DOCTYPE html>
+<html lang="en" data-init>
+<head>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width,initial-scale=1" name="viewport" />
+    <meta content="" name="theme-color" />
+    <link rel="canonical" href="https://mkbhd.com/" />
+
+    <title>MKBHD</title>
+
+
+
+
+
+
+
+
+
+
+    <meta property="og:image" content="https://imgproxy.fourthwall.com/NyeHUy1RJWbZzeGG6EL-2tId0a8BXwYM8eOWRw39ggg/w:1200/plain/https://storage.googleapis.com/cdn.fourthwall.com/offer/sh_5a12e460-1e27-4680-b206-77074242703a/035066ef-1cd8-4e65-bf3b-528921648ddb.png">
+    <meta property="og:image:secure_url" content="https://imgproxy.fourthwall.com/NyeHUy1RJWbZzeGG6EL-2tId0a8BXwYM8eOWRw39ggg/w:1200/plain/https://storage.googleapis.com/cdn.fourthwall.com/offer/sh_5a12e460-1e27-4680-b206-77074242703a/035066ef-1cd8-4e65-bf3b-528921648ddb.png">
+    <meta property="twitter:image" content="https://imgproxy.fourthwall.com/NyeHUy1RJWbZzeGG6EL-2tId0a8BXwYM8eOWRw39ggg/w:1200/plain/https://storage.googleapis.com/cdn.fourthwall.com/offer/sh_5a12e460-1e27-4680-b206-77074242703a/035066ef-1cd8-4e65-bf3b-528921648ddb.png">
+
+
+
+
+    <meta name="twitter:site" content="@MKBHD">
+    <meta name="twitter:creator" content="@MKBHD">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="MKBHD">
+    <meta name="twitter:description" content="The official website and store of Marques Brownlee. Find the latest content, buy merch, and support your favorite creator.">
+
+
+    <link rel="shortcut icon" href="https://imgproxy.fourthwall.com/WhKqIBnrEXgVD9FnYJOPYloRyibl9VlW2V3TUOKjRxk/s:32:32/plain/https://storage.googleapis.com/cdn.fourthwall.com/shops/sh_5a12e460-1e27-4680-b206-77074242703a/themes/a489fcf0-2b2b-45b3-9e58-ac7557893a99.png" sizes="32x32" type="image/png" />
+    <link rel="shortcut icon" href="https://imgproxy.fourthwall.com/tgKhSeyidU5y49Rj4LLRzphiJSKskiE5JfeUy3s_vhs/s:16:16/plain/https://storage.googleapis.com/cdn.fourthwall.com/shops/sh_5a12e460-1e27-4680-b206-77074242703a/themes/a489fcf0-2b2b-45b3-9e58-ac7557893a99.png" sizes="16x16" type="image/png" />
+
+    <link rel="apple-touch-icon" href="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/apple-touch-icon.png?v=91e6b436-f5ef-cc42-d196-f2f1e5308299" sizes="180x180" />
+
+    <meta content="#ffffff" name="msapplication-TileColor" />
+    <meta content="#ffffff" name="theme-color" />
+    <meta content="1.0.0" name="version" />
+
+
+    <link rel="stylesheet" type="text/css" href="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/vendor.css?v=3d197c51-2cbe-947a-c3fc-941cbade0cca" media="all" />
+
+    <link rel="stylesheet" type="text/css" href="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/styles/css-variables.scss.css?v=c18594f1-ce7d-417f-78f2-8d28a62604d4" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/styles/theme.scss.css?v=5cb23857-ca5d-9080-bb45-fac898fff949" media="all" />
+
+    <script src="https://cdn.fourthwall.com/web-perf/web-performance.js" defer></script>
+    <script type='text/javascript'>window.shopName = "MKBHD";window.analyticsSettings = {"Gtag":{"gaWebMeasurementId":"UA-153169685-110","gaWebAppMeasurementId":"UA-193347249-70"}};var eventsListenerScript = document.createElement('script'); eventsListenerScript.async = true; eventsListenerScript.src = "https://cdn.fourthwall.com/shop-event-listener/shop-events-listener.js"; document.getElementsByTagName('head')[0].appendChild(eventsListenerScript);</script>
+    <meta name="google-site-verification" content="gbKGL4MngcNr2WMZdwAzXEqLxaUeTTFpaBYY18ZuNZE" />
+
+
+
+</head>
+
+<body class="body body--index">
+<!-- ie info bar -->
+<div class="browser-ie11" style="display: none">
+    Your current browser is not supported. Please
+    <a href="https://browsehappy.com/" target="_blank" rel="nofollow" nofollow
+    >upgrade to a newer one</a
+    >
+    to improve your experience with this site
+</div>
+
+<script>
+
+    // show info bar
+    document.querySelector(".browser-ie11").style.display = "block";
+
+    // createEvent polyfill
+    (function() {
+        if (typeof window.CustomEvent === "function") return false;
+
+        function CustomEvent(event, params) {
+            params = params || {
+                bubbles: false,
+                cancelable: false,
+                detail: undefined
+            };
+            var evt = document.createEvent("CustomEvent");
+            evt.initCustomEvent(
+                event,
+                params.bubbles,
+                params.cancelable,
+                params.detail
+            );
+            return evt;
+        }
+
+        CustomEvent.prototype = window.Event.prototype;
+        window.CustomEvent = CustomEvent;
+    })();
+    }
+</script>
+
+<div class="page">
+    <div class="page__announcement-bar">
+        <div id="fw-section-announcement-bar" class="fw-section">
+
+        </div>
+    </div>
+
+    <header
+            data-page-header
+            class="page__header"
+    >
+        <div id="fw-section-header" class="fw-section">
+            <div class="header">
+                <div class="container wrapper">
+                    <div class="header__sections">
+                        <div class="header__section header__section--hamburger hidden@md">
+                            <button data-drawer-trigger="mobile-menu" class="header__icon header__icon--hamburger">
+                                <svg width="16" height="14" viewBox="0 0 16 14" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 0h14a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2zm0 6h14a1 1 0 0 1 0 2H1a1 1 0 1 1 0-2zm0 6h14a1 1 0 0 1 0 2H1a1 1 0 0 1 0-2z" fill-rule="evenodd"/>
+                                </svg>
+
+                            </button>
+                        </div>
+
+                        <div class="header__section header__section--left visible@md">
+                            <div class="header__mode-switch">
+                                <label class="switch">
+                                    <input
+                                            data-mode-switch
+                                            type="checkbox"
+                                            class="switch__input"
+                                    >
+                                    <span class="switch__slider">
+    <span class="switch__icon switch__icon--on">
+      <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path opacity="0.6" d="M15.7784 14.092C13.9975 14.8371 11.9949 14.8411 10.2112 14.1031C8.42736 13.3651 7.00849 11.9455 6.26669 10.1566C5.52488 8.36778 5.5209 6.35619 6.25562 4.56439C6.99035 2.7726 8.40359 1.34736 10.1844 0.60223V0.60223C10.4474 0.475882 10.4207 0.135018 10.1322 0.0912969C8.60008 -0.1409 7.02724 0.0711922 5.60216 0.711822C4.50177 1.15537 3.50037 1.81468 2.65643 2.65125C1.8125 3.48782 1.14294 4.4849 0.686847 5.58426C0.230755 6.68362 -0.00273027 7.86324 2.40878e-05 9.05424C0.00277844 10.2452 0.241717 11.4238 0.702889 12.521C1.16406 13.6182 1.83823 14.6121 2.68602 15.4448C3.53382 16.2774 4.53825 16.932 5.64068 17.3704C6.74311 17.8088 7.92145 18.0222 9.10689 17.9982C10.2923 17.9741 11.4611 17.7131 12.545 17.2303C13.984 16.651 15.2262 15.6842 16.1415 14.4471C16.2939 14.241 16.0064 13.9748 15.7784 14.092V14.092Z" fill="currentColor"/>
+</svg>
+
+    </span>
+    
+    <span class="switch__icon switch__icon--off">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M13 8.99999C13 11.2091 11.2091 13 8.99999 13C6.79085 13 4.99999 11.2091 4.99999 8.99999C4.99999 6.79085 6.79085 4.99999 8.99999 4.99999C11.2091 4.99999 13 6.79085 13 8.99999Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7929 5.29288C12.4024 4.90236 12.4024 4.26919 12.7929 3.87867L14.2071 2.46446C14.5976 2.07393 15.2308 2.07393 15.6213 2.46446C16.0118 2.85498 16.0118 3.48814 15.6213 3.87867L14.2071 5.29288C13.8166 5.68341 13.1834 5.68341 12.7929 5.29288Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.20711 5.29288C5.59763 4.90236 5.59763 4.26919 5.20711 3.87867L3.79289 2.46446C3.40237 2.07393 2.7692 2.07393 2.37868 2.46446C1.98816 2.85498 1.98816 3.48814 2.37868 3.87867L3.79289 5.29288C4.18342 5.68341 4.81658 5.68341 5.20711 5.29288Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C9.55229 0 10 0.447715 10 1V3C10 3.55228 9.55229 4 9 4C8.44772 4 8 3.55228 8 3V1C8 0.447715 8.44772 0 9 0Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7929 12.7071C12.4024 13.0976 12.4024 13.7308 12.7929 14.1213L14.2071 15.5355C14.5976 15.9261 15.2308 15.9261 15.6213 15.5355C16.0118 15.145 16.0118 14.5119 15.6213 14.1213L14.2071 12.7071C13.8166 12.3166 13.1834 12.3166 12.7929 12.7071Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.20711 12.7071C5.59763 13.0976 5.59763 13.7308 5.20711 14.1213L3.79289 15.5355C3.40237 15.9261 2.7692 15.9261 2.37868 15.5355C1.98816 15.145 1.98816 14.5119 2.37868 14.1213L3.79289 12.7071C4.18342 12.3166 4.81658 12.3166 5.20711 12.7071Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 18C9.55229 18 10 17.5523 10 17V15C10 14.4477 9.55229 14 9 14C8.44772 14 8 14.4477 8 15V17C8 17.5523 8.44772 18 9 18Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 9C14 8.44771 14.4477 8 15 8H17C17.5523 8 18 8.44771 18 9C18 9.55228 17.5523 10 17 10H15C14.4477 10 14 9.55228 14 9Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9C0 8.44771 0.447715 8 1 8H3C3.55228 8 4 8.44771 4 9C4 9.55228 3.55228 10 3 10H1C0.447715 10 0 9.55228 0 9Z" fill="currentColor"/>
+  </g>
+</svg>
+
+    </span>
+  </span>
+                                </label>
+
+                            </div>
+
+                            <div class="header__social">
+                                <ul class="header__list header__list--socials">
+
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="https://youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ"
+                                                target="_blank"
+                                                class="header__icon"
+                                        >
+
+
+
+                                        </a>
+                                    </li>
+
+
+                                    <li class="header__list-item">
+
+                                        </a>
+                                    </li>
+
+
+                                    <li class="header__list-item">
+
+
+                                        </a>
+                                    </li>
+
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="#"
+                                                target="_blank"
+                                                class="header__icon"
+                                        >
+
+
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="header__section header__section--middle">
+
+                            <h1 class="header__logo">
+
+
+
+
+
+                            </h1>
+
+                        </div>
+
+                        <div class="header__section header__section--right">
+                            <nav class="header__nav visible@md">
+                                <ul class="header__list">
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="#"
+                                                class="header__link"
+                                        >
+                                            Home
+                                        </a>
+                                    </li>
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="#"
+                                                class="header__link"
+                                        >
+                                            Newsletter
+                                        </a>
+                                    </li>
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="#"
+                                                class="header__link"
+                                        >
+                                            Suggestions
+                                        </a>
+                                    </li>
+
+                                    <li class="header__list-item">
+                                        <a
+                                                href="#"
+                                                class="header__link"
+                                        >
+                                            Database
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </nav>
+
+                            <ul class="header__list">
+                                <li class="header__list-item">
+                                    <a href="/cart" class="header__icon header__icon--cart">
+                                        <div
+                                                data-cart-widget="widget"
+                                                class="cart-widget empty"
+                                        >
+                                            <span data-cart-widget="quantity" class="cart-widget__items"></span>
+                                            <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M14.4868 6.36669V7.16669L14.4877 7.16669L14.4868 6.36669ZM3.50458 6.36669V5.56668L3.50225 5.56669L3.50458 6.36669ZM1.5 6.36672L1.50639 5.56675L0.486056 5.55859L0.721609 6.5514L1.5 6.36672ZM3.7649 14.7659L2.99426 14.9807L3.15735 15.5659H3.7649V14.7659ZM14.2351 14.7659V15.5659H14.8426L15.0057 14.9807L14.2351 14.7659ZM16.5 6.36671L17.2784 6.55139L17.5113 5.56977L16.5024 5.56672L16.5 6.36671ZM14.4868 5.56669H3.50458V7.16669H14.4868V5.56669ZM16.5 6.36671C16.5024 5.56672 16.5024 5.56672 16.5024 5.56672C16.5024 5.56672 16.5024 5.56672 16.5024 5.56672C16.5024 5.56672 16.5023 5.56672 16.5023 5.56672C16.5022 5.56672 16.5021 5.56672 16.502 5.56672C16.5017 5.56672 16.5013 5.56671 16.5007 5.56671C16.4996 5.56671 16.4979 5.5667 16.4958 5.5667C16.4914 5.56669 16.4848 5.56667 16.4759 5.56665C16.4582 5.56661 16.4313 5.56655 16.3944 5.56649C16.3207 5.56636 16.2071 5.5662 16.0475 5.5661C15.7282 5.56589 15.2244 5.56589 14.486 5.56669L14.4877 7.16669C15.2254 7.16589 15.7282 7.16589 16.0464 7.1661C16.2056 7.1662 16.3185 7.16636 16.3916 7.16648C16.4282 7.16655 16.4548 7.1666 16.4722 7.16665C16.4809 7.16667 16.4873 7.16668 16.4915 7.16669C16.4936 7.1667 16.4951 7.1667 16.4961 7.16671C16.4966 7.16671 16.497 7.16671 16.4973 7.16671C16.4974 7.16671 16.4975 7.16671 16.4975 7.16671C16.4975 7.16671 16.4976 7.16671 16.4976 7.16671C16.4976 7.16671 16.4976 7.16671 16.4976 7.16671C16.4976 7.16671 16.4976 7.16671 16.5 6.36671ZM3.50225 5.56669C2.76706 5.56883 2.26715 5.56884 1.95145 5.56832C1.79361 5.56805 1.68185 5.56766 1.60979 5.56733C1.57376 5.56717 1.54766 5.56702 1.5307 5.56691C1.52221 5.56686 1.51601 5.56682 1.51199 5.56679C1.50999 5.56678 1.50852 5.56677 1.50759 5.56676C1.50713 5.56676 1.5068 5.56675 1.5066 5.56675C1.5065 5.56675 1.50643 5.56675 1.5064 5.56675C1.50638 5.56675 1.50637 5.56675 1.50637 5.56675C1.50637 5.56675 1.50638 5.56675 1.50638 5.56675C1.50639 5.56675 1.50639 5.56675 1.5 6.36672C1.49361 7.1667 1.49362 7.1667 1.49363 7.1667C1.49364 7.1667 1.49366 7.1667 1.49368 7.1667C1.49371 7.1667 1.49375 7.1667 1.4938 7.1667C1.49389 7.1667 1.49402 7.1667 1.49418 7.1667C1.49451 7.16671 1.49496 7.16671 1.49555 7.16671C1.49672 7.16672 1.49843 7.16674 1.50068 7.16675C1.50517 7.16678 1.51184 7.16683 1.52079 7.16688C1.53867 7.16699 1.56565 7.16715 1.60251 7.16731C1.67624 7.16765 1.78954 7.16805 1.94879 7.16831C2.26728 7.16884 2.76966 7.16883 3.50691 7.16668L3.50225 5.56669ZM0.721609 6.5514C0.942402 7.48201 1.51292 9.59709 2.0235 11.4631C2.27977 12.3997 2.52243 13.279 2.70101 13.9241C2.79031 14.2467 2.8636 14.5107 2.91458 14.6942C2.94006 14.7859 2.95997 14.8575 2.97352 14.9062C2.98029 14.9305 2.98547 14.9491 2.98896 14.9616C2.99071 14.9679 2.99203 14.9727 2.99292 14.9758C2.99336 14.9774 2.9937 14.9786 2.99392 14.9794C2.99403 14.9798 2.99412 14.9802 2.99418 14.9804C2.9942 14.9805 2.99423 14.9805 2.99424 14.9806C2.99426 14.9806 2.99426 14.9807 3.7649 14.7659C4.53554 14.5512 4.53553 14.5511 4.53552 14.5511C4.5355 14.551 4.53548 14.551 4.53546 14.5509C4.5354 14.5507 4.53532 14.5504 4.53521 14.55C4.53499 14.5492 4.53466 14.548 4.53423 14.5465C4.53335 14.5433 4.53204 14.5386 4.53031 14.5324C4.52684 14.5199 4.52169 14.5014 4.51494 14.4772C4.50145 14.4287 4.4816 14.3573 4.45617 14.2658C4.40531 14.0828 4.33216 13.8192 4.24302 13.4972C4.06471 12.8532 3.8225 11.9755 3.56677 11.0409C3.05335 9.16443 2.49142 7.07992 2.27839 6.18204L0.721609 6.5514ZM14.2351 14.7659C15.0057 14.9807 15.0057 14.9806 15.0058 14.9806C15.0058 14.9805 15.0058 14.9805 15.0058 14.9804C15.0059 14.9802 15.006 14.9798 15.0061 14.9794C15.0063 14.9786 15.0066 14.9774 15.0071 14.9758C15.008 14.9726 15.0093 14.9679 15.011 14.9616C15.0145 14.9491 15.0197 14.9305 15.0265 14.9062C15.04 14.8575 15.0599 14.7859 15.0854 14.6942C15.1364 14.5107 15.2097 14.2467 15.299 13.9241C15.4776 13.279 15.7202 12.3997 15.9765 11.4631C16.4871 9.59708 17.0576 7.482 17.2784 6.55139L15.7216 6.18203C15.5086 7.07991 14.9467 9.16442 14.4332 11.0409C14.1775 11.9755 13.9353 12.8532 13.757 13.4972C13.6678 13.8192 13.5947 14.0828 13.5438 14.2658C13.5184 14.3573 13.4986 14.4287 13.4851 14.4772C13.4783 14.5014 13.4732 14.5199 13.4697 14.5324C13.468 14.5386 13.4667 14.5433 13.4658 14.5465C13.4653 14.548 13.465 14.5492 13.4648 14.55C13.4647 14.5504 13.4646 14.5507 13.4645 14.5509C13.4645 14.551 13.4645 14.551 13.4645 14.5511C13.4645 14.5511 13.4645 14.5512 14.2351 14.7659ZM3.7649 15.5659H14.2351V13.9659H3.7649V15.5659ZM4.36909 6.66653L6.51686 1.29711L5.03129 0.702888L2.88353 6.0723L4.36909 6.66653ZM15.1079 6.0723L12.9601 0.702887L11.4745 1.29711L13.6223 6.66653L15.1079 6.0723Z" fill="currentColor"/>
+                                            </svg>
+
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside
+                    data-drawer="mobile-menu"
+                    class="drawer drawer--narrow drawer--left"
+            >
+                <div class="drawer__background" data-drawer-trigger="mobile-menu"></div>
+                <div class="drawer__content">
+                    <div class="drawer__content-inner">
+                        <div class="mobile-menu">
+                            <div class="mobile-menu__top">
+                                <button
+                                        data-drawer-trigger="mobile-menu"
+                                        class="mobile-menu__close"
+                                        title="Close"
+                                >
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.41423 7.99943L15.7384 1.67529L14.3242 0.261078L8.00001 6.58522L1.67587 0.261078L0.261658 1.67529L6.5858 7.99943L0.261658 14.3236L1.67587 15.7378L8.00001 9.41365L14.3242 15.7378L15.7384 14.3236L9.41423 7.99943Z" fill="currentColor"/>
+                                    </svg>
+
+                                </button>
+                            </div>
+
+                            <div class="mobile-menu__logo">
+                                <a
+                                        href="/"
+                                        class="mobile-menu__logo-link"
+                                        title="Home"
+                                >
+
+
+                                    <img
+                                            data-mode-opacity="dark"
+                                            src="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/logo-light.png"
+                                            srcset="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/logo-light.png 1x, https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/logo-light.png 2x"
+                                            alt="MKBHD"
+                                            class="mobile-menu__logo-image mobile-menu__logo-image--dark-mode"
+                                            itemprop="logo"
+                                    >
+
+                                    <img
+                                            data-mode-opacity="light"
+                                            src="https://imgproxy.fourthwall.com/wfYNJi_xLzQhjEpEsK0rzBbibJR6DuNRDLwSHEImtz4/w:48/plain/https://storage.googleapis.com/cdn.fourthwall.com/shops/sh_5a12e460-1e27-4680-b206-77074242703a/themes/f85d089b-d288-45af-a53c-7818c8f8c658.png"
+                                            srcset="https://cdn.fourthwall.com/shops/sh_5a12e460-1e27-4680-b206-77074242703a/themes/f85d089b-d288-45af-a53c-7818c8f8c658.png 1x, https://imgproxy.fourthwall.com/wkGkYtIGpYJb8RFdR8dWlQraEaFABvRNywKU25LJ8O0/w:48/dpr:2/plain/https://storage.googleapis.com/cdn.fourthwall.com/shops/sh_5a12e460-1e27-4680-b206-77074242703a/themes/f85d089b-d288-45af-a53c-7818c8f8c658.png 2x"
+                                            alt="MKBHD"
+                                            class="mobile-menu__logo-image mobile-menu__logo-image--light-mode"
+                                            itemprop="logo"
+                                    >
+
+                                </a>
+                            </div>
+
+                            <div class="mobile-menu__nav">
+                                <ul class="list">
+
+                                    <li class="list__item">
+                                        <a href="/collections/all" class="mobile-menu__link">
+                                            Shop
+                                        </a>
+                                    </li>
+
+                                    <li class="list__item">
+                                        <a href="https://www.youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ" class="mobile-menu__link">
+                                            MKBHD
+                                        </a>
+                                    </li>
+
+                                    <li class="list__item">
+                                        <a href="https://www.youtube.com/channel/UCG7J20LhUeLl6y_Emi7OJrA" class="mobile-menu__link">
+                                            The Studio
+                                        </a>
+                                    </li>
+
+                                    <li class="list__item">
+                                        <a href="#" class="mobile-menu__link">
+                                            About Us
+                                        </a>
+                                    </li>
+
+                                    <li class="list__item">
+                                        <a href="#" class="mobile-menu__link">
+                                            Join our Club!
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="mobile-menu__mode-switch">
+                                <label class="switch">
+                                    <input
+                                            data-mode-switch
+                                            type="checkbox"
+                                            class="switch__input"
+                                    >
+                                    <span class="switch__slider">
+    <span class="switch__icon switch__icon--on">
+      <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path opacity="0.6" d="M15.7784 14.092C13.9975 14.8371 11.9949 14.8411 10.2112 14.1031C8.42736 13.3651 7.00849 11.9455 6.26669 10.1566C5.52488 8.36778 5.5209 6.35619 6.25562 4.56439C6.99035 2.7726 8.40359 1.34736 10.1844 0.60223V0.60223C10.4474 0.475882 10.4207 0.135018 10.1322 0.0912969C8.60008 -0.1409 7.02724 0.0711922 5.60216 0.711822C4.50177 1.15537 3.50037 1.81468 2.65643 2.65125C1.8125 3.48782 1.14294 4.4849 0.686847 5.58426C0.230755 6.68362 -0.00273027 7.86324 2.40878e-05 9.05424C0.00277844 10.2452 0.241717 11.4238 0.702889 12.521C1.16406 13.6182 1.83823 14.6121 2.68602 15.4448C3.53382 16.2774 4.53825 16.932 5.64068 17.3704C6.74311 17.8088 7.92145 18.0222 9.10689 17.9982C10.2923 17.9741 11.4611 17.7131 12.545 17.2303C13.984 16.651 15.2262 15.6842 16.1415 14.4471C16.2939 14.241 16.0064 13.9748 15.7784 14.092V14.092Z" fill="currentColor"/>
+</svg>
+
+    </span>
+    
+    <span class="switch__icon switch__icon--off">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M13 8.99999C13 11.2091 11.2091 13 8.99999 13C6.79085 13 4.99999 11.2091 4.99999 8.99999C4.99999 6.79085 6.79085 4.99999 8.99999 4.99999C11.2091 4.99999 13 6.79085 13 8.99999Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7929 5.29288C12.4024 4.90236 12.4024 4.26919 12.7929 3.87867L14.2071 2.46446C14.5976 2.07393 15.2308 2.07393 15.6213 2.46446C16.0118 2.85498 16.0118 3.48814 15.6213 3.87867L14.2071 5.29288C13.8166 5.68341 13.1834 5.68341 12.7929 5.29288Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.20711 5.29288C5.59763 4.90236 5.59763 4.26919 5.20711 3.87867L3.79289 2.46446C3.40237 2.07393 2.7692 2.07393 2.37868 2.46446C1.98816 2.85498 1.98816 3.48814 2.37868 3.87867L3.79289 5.29288C4.18342 5.68341 4.81658 5.68341 5.20711 5.29288Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C9.55229 0 10 0.447715 10 1V3C10 3.55228 9.55229 4 9 4C8.44772 4 8 3.55228 8 3V1C8 0.447715 8.44772 0 9 0Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7929 12.7071C12.4024 13.0976 12.4024 13.7308 12.7929 14.1213L14.2071 15.5355C14.5976 15.9261 15.2308 15.9261 15.6213 15.5355C16.0118 15.145 16.0118 14.5119 15.6213 14.1213L14.2071 12.7071C13.8166 12.3166 13.1834 12.3166 12.7929 12.7071Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.20711 12.7071C5.59763 13.0976 5.59763 13.7308 5.20711 14.1213L3.79289 15.5355C3.40237 15.9261 2.7692 15.9261 2.37868 15.5355C1.98816 15.145 1.98816 14.5119 2.37868 14.1213L3.79289 12.7071C4.18342 12.3166 4.81658 12.3166 5.20711 12.7071Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M9 18C9.55229 18 10 17.5523 10 17V15C10 14.4477 9.55229 14 9 14C8.44772 14 8 14.4477 8 15V17C8 17.5523 8.44772 18 9 18Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M14 9C14 8.44771 14.4477 8 15 8H17C17.5523 8 18 8.44771 18 9C18 9.55228 17.5523 10 17 10H15C14.4477 10 14 9.55228 14 9Z" fill="currentColor"/>
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9C0 8.44771 0.447715 8 1 8H3C3.55228 8 4 8.44771 4 9C4 9.55228 3.55228 10 3 10H1C0.447715 10 0 9.55228 0 9Z" fill="currentColor"/>
+  </g>
+</svg>
+
+    </span>
+  </span>
+                                </label>
+
+                            </div>
+
+                            <div class="mobile-menu__socials-container">
+                                <ul class="mobile-menu__socials">
+
+
+                                    <li class="mobile-menu__social">
+                                        <a
+                                                href="https://youtube.com/channel/UCBJycsmduvYEL83R_U4JriQ"
+                                                target="_blank"
+                                                class="mobile-menu__social-link"
+                                        >
+
+                                        </a>
+                                    </li>
+
+
+
+
+
+                                    <li class="mobile-menu__social">
+                                        <a
+                                                href="#"
+                                                target="_blank"
+                                                class="mobile-menu__social-link"
+                                        >
+
+
+                                        </a>
+                                    </li>
+
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </header>
+
+    <div class="page__main">
+        <div class="main">
+            <div class="main__sections">
+                <div id="fw-section-hero-0" class="fw-section"><section
+                        data-section-id=""
+                        class="hero hero-- hero--move-up"
+                >
+                    <div class="hero__wrapper">
+                        <div class="hero__background">
+                            <video playsinline autoplay muted loop class="hero__background-video hero__background-video--light">
+                                <source src="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/video-bg-light.mp4?v=364d6351-2cdd-8622-b962-d429a0989974" type="video/mp4">
+                                Your browser does not support HTML5 video.
+                            </video>
+                        </div>
+
+                        <div class="hero__inner">
+                            <div class="container wrapper">
+                                <div class="hero__content">
+                                    <h1 class="hero__heading">
+                                        Holiday Decorating Club
+                                    </h1>
+
+                                    <div class="hero__cta-container">
+
+                                        <div class="hero__cta">
+                                            <a
+                                                    href="/collections/all"
+                                                    class="button button--primary button--mobile-expand"
+                                            >
+                                                Contact Us
+                                            </a>
+                                        </div>
+
+
+
+
+
+
+
+                                        <div class="hero__cta">
+                                            <a
+                                                    href=""
+                                                    target="_blank"
+                                                    class="button button--secondary button--mobile-expand"
+                                            >
+                  <span class="button__icon">
+
+                  </span>
+                                                About Us
+                                            </a>
+                                        </div>
+
+
+
+                                        <div class="hero__cta">
+                                            <a
+                                                    href="https://docs.google.com/forms/d/e/1FAIpQLSdquGyN6crs34OgBex64XqSdTHH21ByJIcAqj18ptbBEsKn1A/viewform"
+                                                    target="_blank"
+                                                    class="button button--secondary button--mobile-expand"
+                                            >
+                <span class="button__icon">
+                  <svg width="23" height="22" viewBox="0 0 23 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M9.63275 7.57258C9.11392 7.03633 9.14142 6.19483 9.67583 5.67508L15.1282 0.38775C15.3949 0.130167 15.7368 0 16.0769 0C16.4216 0 16.7644 0.133833 17.0257 0.403333L9.63275 7.57258ZM0.669583 21.0439C0.556833 21.1521 0.5 21.2978 0.5 21.4436C0.5 21.7488 0.748417 22 1.05642 22C1.19575 22 1.336 21.9478 1.44417 21.8433L2.35992 20.9523L1.58533 20.1529L0.669583 21.0439V21.0439ZM8.40625 10.7461L5.27217 13.7839C3.58825 15.4165 2.72933 16.9987 1.9355 19.2069L3.31875 20.636C5.54992 19.9118 7.15683 19.1024 8.84075 17.4689L11.9739 14.4302L8.40625 10.7461V10.7461ZM17.5454 1.38508L9.47325 9.21342L13.5396 13.4108L21.6118 5.58433C22.203 5.0105 22.5 4.24783 22.5 3.48425C22.5 0.93225 19.4081 -0.421667 17.5454 1.38508V1.38508Z" fill="currentColor"/>
+</svg>  
+                </span>
+                                                Join Our Club!
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+
+
+
+
+
+                    <script>
+                        var fourthwallTheme = {
+                            strings: {
+                                addToCart: "Add to Cart",
+                                viewCart: "View Cart",
+                                checkout: "Checkout",
+                                outOfStock: "Out of Stock",
+                                unavailable: "Not Available",
+                                soldOut: "Sold Out",
+                                soldOutSuffix: " - Sold Out",
+                                missingQuantityError: "Please choose the quantity.",
+                                generalError: "An error occurred. Please try refreshing the page.",
+                                item: "item",
+                                items: "items",
+                                startShopping: "Start Shopping",
+                                subtotal: "Subtotal",
+                                backToShopping: "Back to Shopping",
+                                cart: {
+                                    heading: "[item_count] [item_count_label] in your cart for [total]",
+                                    emptyHeading: "Your Shopping Cart is Empty",
+                                    tableHeader: {
+                                        item: "Item",
+                                        quantity: "Quantity",
+                                        price: "Price"
+                                    },
+                                    deleteModal: {
+                                        heading: "Are you sure you want to remove [title] from your cart?",
+                                        cancel: "Cancel",
+                                        delete: "Delete"
+                                    }
+                                },
+                                newsletter: {
+                                    missingEmailError: 'Please enter your email.',
+                                    invalidEmailError: 'Please enter a valid email.'
+                                },
+                                donation: {
+                                    missingAmountError: 'Please select or enter the donation amount.',
+                                    invalidAmountError: 'Please enter a valid donation amount.',
+                                    missingNameError: 'Please enter your name.',
+                                    missingMessageError: 'Please enter the message.'
+                                }
+                            },
+                            urls: {
+                                cart: "/cart",
+                                allProductsCollection: "/collections/all",
+                            }
+                        };
+                    </script>
+
+
+                    <script src="https://themes.fourthwall.com/themes/assets/11d2f253-34b7-4fdc-b01b-17868cd74972/assets/theme.js?v=7a918ff1-09d8-8e87-a8fb-355be5a02ee2"></script>
+</body>
+</html>
